@@ -1,0 +1,97 @@
+/* src/components/Home.css */
+
+/* General styles for the home page */
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    color: #2c3e50; /* Dark color for text */
+  }
+  
+  /* Hero section styles */
+  .hero {
+    background: linear-gradient(135deg, #6e45e2, #88d3ce); /* Gradient background */
+    color: white; /* White text for contrast */
+    padding: 80px 20px;
+    text-align: center; /* Center text */
+    width: 100%;
+    margin-bottom: 40px; /* Space below the hero section */
+  }
+  
+  .hero-title {
+    font-size: 2.5em; /* Large title */
+    margin: 0; /* No margin */
+  }
+  
+  .hero-subtitle {
+    font-size: 1.2em; /* Subtitle size */
+    margin: 10px 0 20px; /* Margin around subtitle */
+  }
+  
+  .cta-btn {
+    background-color: #ffe700; /* Button color */
+    border: none;
+    border-radius: 30px; /* Rounded corners */
+    color: #2c3e50; /* Button text color */
+    font-size: 1em;
+    padding: 12px 24px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out; /* Smooth transition */
+  }
+  
+  /* Features section styles */
+  .features {
+    text-align: center; /* Center text */
+    margin: 40px 0; /* Margin above and below */
+  }
+  
+  .features-title {
+    font-size: 2em; /* Title size */
+    margin-bottom: 20px; /* Space below title */
+  }
+  
+  .feature-cards {
+    display: flex;
+    justify-content: center; /* Center the cards */
+    gap: 30px; /* Space between cards */
+  }
+  
+  .feature-card {
+    background: white; /* White background for cards */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding inside cards */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    width: 250px; /* Fixed width for cards */
+  }
+  
+  /* How It Works section styles */
+  .how-it-works {
+    text-align: center; /* Center text */
+    margin: 40px 0; /* Margin above and below */
+  }
+  
+  .how-it-works-title {
+    font-size: 2em; /* Title size */
+    margin-bottom: 20px; /* Space below title */
+  }
+  
+  .steps {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+  }
+  
+  .steps li {
+    font-size: 1.2em; /* Step text size */
+    margin: 10px 0; /* Space between steps */
+  }
+  
+  /* Footer styles */
+  .footer {
+    background: #2c3e50; /* Dark footer background */
+    color: white; /* White text for contrast */
+    padding: 20px 0; /* Space around footer content */
+    text-align: center; /* Center text */
+    width: 100%; /* Full width footer */
+  }
+  

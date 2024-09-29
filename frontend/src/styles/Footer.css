@@ -1,0 +1,41 @@
+/* src/components/Footer.css */
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* General footer styles */
+  .footer {
+    background: linear-gradient(135deg, #6e45e2, #88d3ce); 
+    color: #fff; 
+    padding: 20px; /* Adjusted padding for a more consistent look */
+    text-align: center; 
+    position: relative; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    z-index: 1000; 
+  }
+  
+  /* Flex container for footer content */
+  .footer-content {
+    display: flex;
+    justify-content: center; /* Center the footer content */
+    align-items: center; 
+    flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
+  }
+  
+  /* Styles for footer links */
+  .footer-link {
+    color: #ffffff; 
+    text-decoration: none; 
+    margin: 0 15px; /* Space on both sides of the link */
+    transition: color 0.3s ease-in-out; 
+  }
+  
+  /* Hover effect for footer links */
+  .footer-link:hover {
+    color: #ffe700; /* Highlight color on hover */
+  }
+  

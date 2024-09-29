@@ -1,0 +1,72 @@
+/* General styles */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Header styles */
+.header {
+  background: linear-gradient(135deg, #6e45e2, #88d3ce); /* Gradient background */
+  padding: 20px 50px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Flex container for header content */
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo styles */
+.logo {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #fff;
+}
+
+.logo-primary {
+  color: #ffe700; /* Primary logo color */
+}
+
+.logo-secondary {
+  color: #ffffff; /* Secondary logo color */
+}
+
+/* Navigation styles */
+.nav {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 500;
+  transition: color 0.3s ease-in-out;
+}
+
+/* Hover effect for navigation links */
+.nav-link:hover {
+  color: #ffe700; /* Highlight color */
+}
+
+/* Call-to-action button styles */
+.cta-btn {
+  background-color: #ffe700;
+  border: none;
+  border-radius: 30px;
+  color: #2c3e50;
+  font-size: 1em;
+  padding: 12px 24px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.cta-btn:hover {
+  background-color: #f9d700;
+}
